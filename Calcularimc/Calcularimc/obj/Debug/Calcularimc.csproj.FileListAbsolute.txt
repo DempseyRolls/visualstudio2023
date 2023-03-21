@@ -1,0 +1,8 @@
+D:\github\repos\DempseyRolls\visualstudio2023\Calcularimc\Calcularimc\bin\Debug\Calcularimc.exe.config
+D:\github\repos\DempseyRolls\visualstudio2023\Calcularimc\Calcularimc\bin\Debug\Calcularimc.exe
+D:\github\repos\DempseyRolls\visualstudio2023\Calcularimc\Calcularimc\bin\Debug\Calcularimc.pdb
+D:\github\repos\DempseyRolls\visualstudio2023\Calcularimc\Calcularimc\obj\Debug\Calcularimc.csproj.AssemblyReference.cache
+D:\github\repos\DempseyRolls\visualstudio2023\Calcularimc\Calcularimc\obj\Debug\Calcularimc.csproj.SuggestedBindingRedirects.cache
+D:\github\repos\DempseyRolls\visualstudio2023\Calcularimc\Calcularimc\obj\Debug\Calcularimc.csproj.CoreCompileInputs.cache
+D:\github\repos\DempseyRolls\visualstudio2023\Calcularimc\Calcularimc\obj\Debug\Calcularimc.exe
+D:\github\repos\DempseyRolls\visualstudio2023\Calcularimc\Calcularimc\obj\Debug\Calcularimc.pdb
