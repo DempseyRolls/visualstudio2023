@@ -1,0 +1,8 @@
+D:\github\repos\DempseyRolls\visualstudio2023\Ejercicio1\Ejercicio1\bin\Debug\Ejercicio1.exe.config
+D:\github\repos\DempseyRolls\visualstudio2023\Ejercicio1\Ejercicio1\bin\Debug\Ejercicio1.exe
+D:\github\repos\DempseyRolls\visualstudio2023\Ejercicio1\Ejercicio1\bin\Debug\Ejercicio1.pdb
+D:\github\repos\DempseyRolls\visualstudio2023\Ejercicio1\Ejercicio1\obj\Debug\Ejercicio1.csproj.AssemblyReference.cache
+D:\github\repos\DempseyRolls\visualstudio2023\Ejercicio1\Ejercicio1\obj\Debug\Ejercicio1.csproj.SuggestedBindingRedirects.cache
+D:\github\repos\DempseyRolls\visualstudio2023\Ejercicio1\Ejercicio1\obj\Debug\Ejercicio1.csproj.CoreCompileInputs.cache
+D:\github\repos\DempseyRolls\visualstudio2023\Ejercicio1\Ejercicio1\obj\Debug\Ejercicio1.exe
+D:\github\repos\DempseyRolls\visualstudio2023\Ejercicio1\Ejercicio1\obj\Debug\Ejercicio1.pdb
