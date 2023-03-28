@@ -5,6 +5,8 @@ VisualStudioVersion = 17.5.33502.453
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calcularimc", "Calcularimc\Calcularimc.csproj", "{55FA2EFB-FB3A-4101-9E27-0CB2B7E04B09}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdminPersonasModel", "AdminPersonasModel\AdminPersonasModel.csproj", "{C97B786D-419D-493D-8F80-B68B2C37A4B7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{55FA2EFB-FB3A-4101-9E27-0CB2B7E04B09}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{55FA2EFB-FB3A-4101-9E27-0CB2B7E04B09}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{55FA2EFB-FB3A-4101-9E27-0CB2B7E04B09}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C97B786D-419D-493D-8F80-B68B2C37A4B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C97B786D-419D-493D-8F80-B68B2C37A4B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C97B786D-419D-493D-8F80-B68B2C37A4B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C97B786D-419D-493D-8F80-B68B2C37A4B7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
