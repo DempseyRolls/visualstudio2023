@@ -9,7 +9,7 @@ namespace Calcularimc
 {
     public partial class Program
     {
-        static PersonasDAL personasDAL = new PersonasDAL();
+        static iPersonasDAL personasDAL = new PersonasDALArchivos();
         static void MostrarPersona() 
         {
         List<Persona> personas = personasDAL.ObtenerPersonas();
@@ -19,12 +19,13 @@ namespace Calcularimc
                 Console.WriteLine("{0}: Nombre: {1} Peso: {2}",i,actual.Nombre,actual.Peso);
             }
         }
-        static void BuscarPersona() {
+        static void BuscarPersona() 
+        {
             Console.WriteLine("ingrese nombre");
-            new PersonasDAL().FiltrarPersonas(Console.ReadLine().Trim())
+            new PersonasDALObjetos().FiltrarPersonas(Console.ReadLine().Trim())
                              .ForEach(p=> Console.WriteLine("Nombre: {0} Peso: {1}",p.Nombre,p.Peso));
 
-            List<Persona>personas = new PersonasDAL().FiltrarPersonas(Console.ReadLine().Trim());
+            List<Persona>personas = new PersonasDALObjetos().FiltrarPersonas(Console.ReadLine().Trim());
             foreach (Persona p in personas) 
             {
             Console.WriteLine("Nombre: {0} Peso{1}",p.Nombre,p.Peso);
@@ -76,12 +77,15 @@ namespace Calcularimc
             Telefono = telefono,
             Peso = peso
             };
-            personasDAL().AgregarPersona(p);
+            p.calcularimc();
+            personasDAL.AgregarPersona(p);
+            
             
             Console.WriteLine("nombre: {0}", p.Nombre);
             Console.WriteLine("telefono: {0}", p.Telefono);
             Console.WriteLine("peso: {0}", p.Peso);
-            Console.WriteLine("su IMC es: {0}", peso / (estatura * estatura));
+            Console.WriteLine("estatura: {0}", p.Estatura);
+            Console.WriteLine("su IMC es: {0}", p.IMC.Texto);
 
 
             Console.ReadKey();

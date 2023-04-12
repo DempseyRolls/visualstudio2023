@@ -57,5 +57,10 @@ namespace Calcularimc
                 return this.imc;
             }
         }
+
+        public override string ToString()
+        {
+            return Nombre + " " + IMC.Texto;
+        }
     }
 }

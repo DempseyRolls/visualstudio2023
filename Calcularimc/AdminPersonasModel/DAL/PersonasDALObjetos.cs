@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace AdminPersonasModel.DAL
 {
-    public class PersonasDAL
+    public class PersonasDALObjetos : iPersonasDAL
     {
         //para crear la biblioteca se debe dar click derecho en la solucion, agregar, biblioteca de clases(.netframework)
         //para crear la biblioteca de clases se debe referenciar en el proyecto, en este caso se referencia en Calcularimc, referencias, click derecho agregar referencia y en este caso seleccionar AdminPersonasModel

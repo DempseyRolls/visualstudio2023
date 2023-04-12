@@ -6,3 +6,6 @@ D:\github\repos\DempseyRolls\visualstudio2023\Calcularimc\Calcularimc\obj\Debug\
 D:\github\repos\DempseyRolls\visualstudio2023\Calcularimc\Calcularimc\obj\Debug\Calcularimc.csproj.CoreCompileInputs.cache
 D:\github\repos\DempseyRolls\visualstudio2023\Calcularimc\Calcularimc\obj\Debug\Calcularimc.exe
 D:\github\repos\DempseyRolls\visualstudio2023\Calcularimc\Calcularimc\obj\Debug\Calcularimc.pdb
+D:\github\repos\DempseyRolls\visualstudio2023\Calcularimc\Calcularimc\bin\Debug\AdminPersonasModel.dll
+D:\github\repos\DempseyRolls\visualstudio2023\Calcularimc\Calcularimc\bin\Debug\AdminPersonasModel.pdb
+D:\github\repos\DempseyRolls\visualstudio2023\Calcularimc\Calcularimc\obj\Debug\Calcularimc.csproj.CopyComplete

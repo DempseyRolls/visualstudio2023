@@ -1,0 +1,6 @@
+D:\github\repos\DempseyRolls\visualstudio2023\Calcularimc\AdminPersonasModel\bin\Debug\AdminPersonasModel.dll
+D:\github\repos\DempseyRolls\visualstudio2023\Calcularimc\AdminPersonasModel\bin\Debug\AdminPersonasModel.pdb
+D:\github\repos\DempseyRolls\visualstudio2023\Calcularimc\AdminPersonasModel\obj\Debug\AdminPersonasModel.csproj.AssemblyReference.cache
+D:\github\repos\DempseyRolls\visualstudio2023\Calcularimc\AdminPersonasModel\obj\Debug\AdminPersonasModel.csproj.CoreCompileInputs.cache
+D:\github\repos\DempseyRolls\visualstudio2023\Calcularimc\AdminPersonasModel\obj\Debug\AdminPersonasModel.dll
+D:\github\repos\DempseyRolls\visualstudio2023\Calcularimc\AdminPersonasModel\obj\Debug\AdminPersonasModel.pdb
