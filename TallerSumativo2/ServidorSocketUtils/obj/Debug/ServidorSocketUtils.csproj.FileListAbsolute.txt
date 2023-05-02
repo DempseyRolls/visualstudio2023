@@ -1,0 +1,6 @@
+D:\github\repos\DempseyRolls\visualstudio2023\TallerSumativo2\ServidorSocketUtils\bin\Debug\ServidorSocketUtils.dll
+D:\github\repos\DempseyRolls\visualstudio2023\TallerSumativo2\ServidorSocketUtils\bin\Debug\ServidorSocketUtils.pdb
+D:\github\repos\DempseyRolls\visualstudio2023\TallerSumativo2\ServidorSocketUtils\obj\Debug\ServidorSocketUtils.csproj.AssemblyReference.cache
+D:\github\repos\DempseyRolls\visualstudio2023\TallerSumativo2\ServidorSocketUtils\obj\Debug\ServidorSocketUtils.csproj.CoreCompileInputs.cache
+D:\github\repos\DempseyRolls\visualstudio2023\TallerSumativo2\ServidorSocketUtils\obj\Debug\ServidorSocketUtils.dll
+D:\github\repos\DempseyRolls\visualstudio2023\TallerSumativo2\ServidorSocketUtils\obj\Debug\ServidorSocketUtils.pdb

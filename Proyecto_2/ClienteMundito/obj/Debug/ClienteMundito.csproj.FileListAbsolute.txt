@@ -1,0 +1,8 @@
+D:\github\repos\DempseyRolls\visualstudio2023\Proyecto_2\ClienteMundito\bin\Debug\ClienteMundito.exe.config
+D:\github\repos\DempseyRolls\visualstudio2023\Proyecto_2\ClienteMundito\bin\Debug\ClienteMundito.exe
+D:\github\repos\DempseyRolls\visualstudio2023\Proyecto_2\ClienteMundito\bin\Debug\ClienteMundito.pdb
+D:\github\repos\DempseyRolls\visualstudio2023\Proyecto_2\ClienteMundito\obj\Debug\ClienteMundito.csproj.AssemblyReference.cache
+D:\github\repos\DempseyRolls\visualstudio2023\Proyecto_2\ClienteMundito\obj\Debug\ClienteMundito.csproj.SuggestedBindingRedirects.cache
+D:\github\repos\DempseyRolls\visualstudio2023\Proyecto_2\ClienteMundito\obj\Debug\ClienteMundito.csproj.CoreCompileInputs.cache
+D:\github\repos\DempseyRolls\visualstudio2023\Proyecto_2\ClienteMundito\obj\Debug\ClienteMundito.exe
+D:\github\repos\DempseyRolls\visualstudio2023\Proyecto_2\ClienteMundito\obj\Debug\ClienteMundito.pdb

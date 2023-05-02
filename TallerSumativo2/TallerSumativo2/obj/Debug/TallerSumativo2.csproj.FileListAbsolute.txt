@@ -1,0 +1,11 @@
+D:\github\repos\DempseyRolls\visualstudio2023\TallerSumativo2\TallerSumativo2\bin\Debug\TallerSumativo2.exe.config
+D:\github\repos\DempseyRolls\visualstudio2023\TallerSumativo2\TallerSumativo2\bin\Debug\TallerSumativo2.exe
+D:\github\repos\DempseyRolls\visualstudio2023\TallerSumativo2\TallerSumativo2\bin\Debug\TallerSumativo2.pdb
+D:\github\repos\DempseyRolls\visualstudio2023\TallerSumativo2\TallerSumativo2\obj\Debug\TallerSumativo2.csproj.AssemblyReference.cache
+D:\github\repos\DempseyRolls\visualstudio2023\TallerSumativo2\TallerSumativo2\obj\Debug\TallerSumativo2.csproj.SuggestedBindingRedirects.cache
+D:\github\repos\DempseyRolls\visualstudio2023\TallerSumativo2\TallerSumativo2\obj\Debug\TallerSumativo2.csproj.CoreCompileInputs.cache
+D:\github\repos\DempseyRolls\visualstudio2023\TallerSumativo2\TallerSumativo2\obj\Debug\TallerSumativo2.exe
+D:\github\repos\DempseyRolls\visualstudio2023\TallerSumativo2\TallerSumativo2\obj\Debug\TallerSumativo2.pdb
+D:\github\repos\DempseyRolls\visualstudio2023\TallerSumativo2\TallerSumativo2\bin\Debug\ServidorSocketUtils.dll
+D:\github\repos\DempseyRolls\visualstudio2023\TallerSumativo2\TallerSumativo2\bin\Debug\ServidorSocketUtils.pdb
+D:\github\repos\DempseyRolls\visualstudio2023\TallerSumativo2\TallerSumativo2\obj\Debug\TallerSumativo2.csproj.CopyComplete

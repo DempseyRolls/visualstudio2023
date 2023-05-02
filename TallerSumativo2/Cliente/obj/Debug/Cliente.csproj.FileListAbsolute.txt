@@ -1,0 +1,8 @@
+D:\github\repos\DempseyRolls\visualstudio2023\TallerSumativo2\Cliente\obj\Debug\Cliente.csproj.AssemblyReference.cache
+D:\github\repos\DempseyRolls\visualstudio2023\TallerSumativo2\Cliente\obj\Debug\Cliente.csproj.SuggestedBindingRedirects.cache
+D:\github\repos\DempseyRolls\visualstudio2023\TallerSumativo2\Cliente\obj\Debug\Cliente.csproj.CoreCompileInputs.cache
+D:\github\repos\DempseyRolls\visualstudio2023\TallerSumativo2\Cliente\bin\Debug\Cliente.exe.config
+D:\github\repos\DempseyRolls\visualstudio2023\TallerSumativo2\Cliente\bin\Debug\Cliente.exe
+D:\github\repos\DempseyRolls\visualstudio2023\TallerSumativo2\Cliente\bin\Debug\Cliente.pdb
+D:\github\repos\DempseyRolls\visualstudio2023\TallerSumativo2\Cliente\obj\Debug\Cliente.exe
+D:\github\repos\DempseyRolls\visualstudio2023\TallerSumativo2\Cliente\obj\Debug\Cliente.pdb
