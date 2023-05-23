@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TallerSumativo2", "TallerSu
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServidorSocketUtils", "ServidorSocketUtils\ServidorSocketUtils.csproj", "{C1DA8FD3-C701-4D49-A860-AFED2357EBB9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClienteSocketUtils", "ClienteSocketUtils\ClienteSocketUtils.csproj", "{F896D96C-4406-4431-A3C2-1BA78643F665}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EjercicioCliente1", "EjercicioCliente1\EjercicioCliente1.csproj", "{01BE67B8-B302-4AA9-AE8A-ED3DA4550CD6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{C1DA8FD3-C701-4D49-A860-AFED2357EBB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C1DA8FD3-C701-4D49-A860-AFED2357EBB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C1DA8FD3-C701-4D49-A860-AFED2357EBB9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F896D96C-4406-4431-A3C2-1BA78643F665}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F896D96C-4406-4431-A3C2-1BA78643F665}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F896D96C-4406-4431-A3C2-1BA78643F665}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F896D96C-4406-4431-A3C2-1BA78643F665}.Release|Any CPU.Build.0 = Release|Any CPU
+		{01BE67B8-B302-4AA9-AE8A-ED3DA4550CD6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01BE67B8-B302-4AA9-AE8A-ED3DA4550CD6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01BE67B8-B302-4AA9-AE8A-ED3DA4550CD6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01BE67B8-B302-4AA9-AE8A-ED3DA4550CD6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

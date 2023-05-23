@@ -1,0 +1,13 @@
+D:\github\repos\DempseyRolls\visualstudio2023\Mensajero\Mensajero\bin\Debug\Mensajero.exe.config
+D:\github\repos\DempseyRolls\visualstudio2023\Mensajero\Mensajero\bin\Debug\Mensajero.exe
+D:\github\repos\DempseyRolls\visualstudio2023\Mensajero\Mensajero\bin\Debug\Mensajero.pdb
+D:\github\repos\DempseyRolls\visualstudio2023\Mensajero\Mensajero\bin\Debug\MensajeroModel.dll
+D:\github\repos\DempseyRolls\visualstudio2023\Mensajero\Mensajero\bin\Debug\ServidorSocketUtils.dll
+D:\github\repos\DempseyRolls\visualstudio2023\Mensajero\Mensajero\bin\Debug\MensajeroModel.pdb
+D:\github\repos\DempseyRolls\visualstudio2023\Mensajero\Mensajero\bin\Debug\ServidorSocketUtils.pdb
+D:\github\repos\DempseyRolls\visualstudio2023\Mensajero\Mensajero\obj\Debug\Mensajero.csproj.AssemblyReference.cache
+D:\github\repos\DempseyRolls\visualstudio2023\Mensajero\Mensajero\obj\Debug\Mensajero.csproj.SuggestedBindingRedirects.cache
+D:\github\repos\DempseyRolls\visualstudio2023\Mensajero\Mensajero\obj\Debug\Mensajero.csproj.CoreCompileInputs.cache
+D:\github\repos\DempseyRolls\visualstudio2023\Mensajero\Mensajero\obj\Debug\Mensajero.csproj.CopyComplete
+D:\github\repos\DempseyRolls\visualstudio2023\Mensajero\Mensajero\obj\Debug\Mensajero.exe
+D:\github\repos\DempseyRolls\visualstudio2023\Mensajero\Mensajero\obj\Debug\Mensajero.pdb

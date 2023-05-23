@@ -6,22 +6,19 @@ using System.Net.Sockets;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace TallerSumativo2.ServidorSocketUtils
+namespace ServidorSocketUtils
 {
     public class ClienteCom
     {
         private Socket cliente;
         private StreamReader reader;
         private StreamWriter writer;
-
-
         public ClienteCom(Socket socket)
         {
             this.cliente = socket;
             Stream stream = new NetworkStream(this.cliente);
             this.reader = new StreamReader(stream);
             this.writer = new StreamWriter(stream);
-
         }
 
         public void Desconectar()
@@ -34,7 +31,6 @@ namespace TallerSumativo2.ServidorSocketUtils
             {
 
             }
-
         }
 
         public bool Escribir(string mensaje)

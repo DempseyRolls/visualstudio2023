@@ -5,78 +5,65 @@ using System.Linq;
 using System.Net.Sockets;
 using System.Text;
 using System.Threading.Tasks;
-using TallerSumativo2.ServidorSocketUtils;
+using ServidorSocketUtils;
 
 namespace TallerSumativo2
 {
-    public class Program
+     public class Program
     {
-        static void GenerarComunicacion(ClienteCom clientecom)
+        static void GenerarComunicacion(ClienteCom clienteCom)
         {
             bool terminar = false;
             while (!terminar)
             {
-                string mensaje = clientecom.Leer();
+                string mensaje = clienteCom.Leer();
                 if (mensaje != null)
                 {
                     Console.WriteLine("Cli: {0}", mensaje);
                     if (mensaje.ToLower() == "chao")
                     {
                         terminar = true;
-
                     }
                     else
                     {
-                        Console.WriteLine("Ingrese mensaje: ");
+                        Console.WriteLine("Ingrese respuesta : ");
                         mensaje = Console.ReadLine().Trim();
-                        clientecom.Escribir(mensaje);
+                        clienteCom.Escribir(mensaje);
                         if (mensaje.ToLower() == "chao")
                         {
                             terminar = true;
                         }
                     }
                 }
-                if (terminar) 
+                if (terminar)
                 {
-                clientecom.Desconectar();
+                    clienteCom.Desconectar();
                 }
             }
         }
         static void Main(string[] args)
         {
             int puerto = Convert.ToInt32(ConfigurationManager.AppSettings["puerto"]);
-            Console.WriteLine("iniciando servidor en puerto {0}", puerto);
+            Console.WriteLine("Iniciando servidor en puerto {0}", puerto);
             ServerSocket serverSocket = new ServerSocket(puerto);
 
             if (serverSocket.Iniciar())
             {
-                //OK, se puede conectar
-                
-
-                //solicitando clientes infinitamente
                 while (true)
                 {
-                    Console.WriteLine("esperando cliente...");
-                    
-                    Socket socketCliente = serverSocket.ObtenerCliente();
-                    Console.WriteLine("cliente recibido");
-
-                    // comunicacion con el cliente
-
-                    ClienteCom clienteCom = new ClienteCom(socketCliente);
+                    Console.WriteLine("Esperando Clientes...");
+                    Socket socket = serverSocket.ObtenerCliente();
+                    Console.WriteLine("Cliente recibido");
+                    //comunicarse con el cliente
+                    ClienteCom clienteCom = new ClienteCom(socket);
                     GenerarComunicacion(clienteCom);
-
-                  
-                    //el comando <Cr><LF> se usa para contestar al servidor con el hercules
-
                 }
 
             }
             else
             {
-                Console.WriteLine("ERROR!!!, el puerto {0} esta en uso", puerto);
+                Console.WriteLine("Error al comunicarse con el puerto {0}", puerto);
             }
         }
     }
-            
 }

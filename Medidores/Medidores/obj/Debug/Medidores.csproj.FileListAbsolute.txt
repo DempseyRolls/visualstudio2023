@@ -1,0 +1,13 @@
+D:\github\repos\DempseyRolls\visualstudio2023\Medidores\Medidores\bin\Debug\Medidores.exe.config
+D:\github\repos\DempseyRolls\visualstudio2023\Medidores\Medidores\bin\Debug\Medidores.exe
+D:\github\repos\DempseyRolls\visualstudio2023\Medidores\Medidores\bin\Debug\Medidores.pdb
+D:\github\repos\DempseyRolls\visualstudio2023\Medidores\Medidores\bin\Debug\MedidoresModel.dll
+D:\github\repos\DempseyRolls\visualstudio2023\Medidores\Medidores\bin\Debug\ServidorSocketUtils.dll
+D:\github\repos\DempseyRolls\visualstudio2023\Medidores\Medidores\bin\Debug\MedidoresModel.pdb
+D:\github\repos\DempseyRolls\visualstudio2023\Medidores\Medidores\bin\Debug\ServidorSocketUtils.pdb
+D:\github\repos\DempseyRolls\visualstudio2023\Medidores\Medidores\obj\Debug\Medidores.csproj.AssemblyReference.cache
+D:\github\repos\DempseyRolls\visualstudio2023\Medidores\Medidores\obj\Debug\Medidores.csproj.SuggestedBindingRedirects.cache
+D:\github\repos\DempseyRolls\visualstudio2023\Medidores\Medidores\obj\Debug\Medidores.csproj.CoreCompileInputs.cache
+D:\github\repos\DempseyRolls\visualstudio2023\Medidores\Medidores\obj\Debug\Medidores.csproj.CopyComplete
+D:\github\repos\DempseyRolls\visualstudio2023\Medidores\Medidores\obj\Debug\Medidores.exe
+D:\github\repos\DempseyRolls\visualstudio2023\Medidores\Medidores\obj\Debug\Medidores.pdb

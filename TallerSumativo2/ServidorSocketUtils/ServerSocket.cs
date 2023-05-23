@@ -6,7 +6,7 @@ using System.Net.Sockets;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace TallerSumativo2.ServidorSocketUtils
+namespace ServidorSocketUtils
 {
     public class ServerSocket
     {
@@ -18,8 +18,8 @@ namespace TallerSumativo2.ServidorSocketUtils
             this.puerto = puerto;
         }
 
-        //iniciar la coneccion del servidor, tomando posesion del puerto
-        //True en caso de coneccion exitosa, false en caso contrario
+        //Iniciar la conexion del servidor, tomando posesion del puerto
+        //True en caso de conexion exitosa, false en caso contrario
 
         public bool Iniciar()
         {
@@ -34,10 +34,7 @@ namespace TallerSumativo2.ServidorSocketUtils
             {
                 return false;
             }
-
-
         }
-
         public void Cerrar()
         {
             try

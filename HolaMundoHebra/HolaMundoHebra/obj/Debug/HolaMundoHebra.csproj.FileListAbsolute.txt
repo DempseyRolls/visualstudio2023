@@ -1,0 +1,8 @@
+D:\github\repos\DempseyRolls\visualstudio2023\HolaMundoHebra\HolaMundoHebra\bin\Debug\HolaMundoHebra.exe.config
+D:\github\repos\DempseyRolls\visualstudio2023\HolaMundoHebra\HolaMundoHebra\bin\Debug\HolaMundoHebra.exe
+D:\github\repos\DempseyRolls\visualstudio2023\HolaMundoHebra\HolaMundoHebra\bin\Debug\HolaMundoHebra.pdb
+D:\github\repos\DempseyRolls\visualstudio2023\HolaMundoHebra\HolaMundoHebra\obj\Debug\HolaMundoHebra.csproj.AssemblyReference.cache
+D:\github\repos\DempseyRolls\visualstudio2023\HolaMundoHebra\HolaMundoHebra\obj\Debug\HolaMundoHebra.csproj.SuggestedBindingRedirects.cache
+D:\github\repos\DempseyRolls\visualstudio2023\HolaMundoHebra\HolaMundoHebra\obj\Debug\HolaMundoHebra.csproj.CoreCompileInputs.cache
+D:\github\repos\DempseyRolls\visualstudio2023\HolaMundoHebra\HolaMundoHebra\obj\Debug\HolaMundoHebra.exe
+D:\github\repos\DempseyRolls\visualstudio2023\HolaMundoHebra\HolaMundoHebra\obj\Debug\HolaMundoHebra.pdb

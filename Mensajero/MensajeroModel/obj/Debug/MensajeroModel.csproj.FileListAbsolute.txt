@@ -1,0 +1,6 @@
+D:\github\repos\DempseyRolls\visualstudio2023\Mensajero\MensajeroModel\bin\Debug\MensajeroModel.dll
+D:\github\repos\DempseyRolls\visualstudio2023\Mensajero\MensajeroModel\bin\Debug\MensajeroModel.pdb
+D:\github\repos\DempseyRolls\visualstudio2023\Mensajero\MensajeroModel\obj\Debug\MensajeroModel.csproj.AssemblyReference.cache
+D:\github\repos\DempseyRolls\visualstudio2023\Mensajero\MensajeroModel\obj\Debug\MensajeroModel.csproj.CoreCompileInputs.cache
+D:\github\repos\DempseyRolls\visualstudio2023\Mensajero\MensajeroModel\obj\Debug\MensajeroModel.dll
+D:\github\repos\DempseyRolls\visualstudio2023\Mensajero\MensajeroModel\obj\Debug\MensajeroModel.pdb

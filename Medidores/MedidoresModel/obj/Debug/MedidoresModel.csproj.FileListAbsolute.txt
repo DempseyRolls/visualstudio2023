@@ -1,0 +1,6 @@
+D:\github\repos\DempseyRolls\visualstudio2023\Medidores\MedidoresModel\bin\Debug\MedidoresModel.dll
+D:\github\repos\DempseyRolls\visualstudio2023\Medidores\MedidoresModel\bin\Debug\MedidoresModel.pdb
+D:\github\repos\DempseyRolls\visualstudio2023\Medidores\MedidoresModel\obj\Debug\MedidoresModel.csproj.AssemblyReference.cache
+D:\github\repos\DempseyRolls\visualstudio2023\Medidores\MedidoresModel\obj\Debug\MedidoresModel.csproj.CoreCompileInputs.cache
+D:\github\repos\DempseyRolls\visualstudio2023\Medidores\MedidoresModel\obj\Debug\MedidoresModel.dll
+D:\github\repos\DempseyRolls\visualstudio2023\Medidores\MedidoresModel\obj\Debug\MedidoresModel.pdb
