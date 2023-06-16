@@ -4,7 +4,7 @@ using MedidoresModel.DTO;
 using ServidorSocketUtils;
 using System;
 using System.Collections.Generic;
-using System.Globalization;
+using System.Configuration;
 using System.Threading;
 
 namespace Medidores
@@ -18,7 +18,7 @@ namespace Medidores
         {
             bool continuar = true;
             Console.WriteLine("seleccione una opcion");
-            Console.WriteLine(" 1. Ingresar Lectura \n 2. Mostrar Lecturas \n 0. Salir");
+            Console.WriteLine(" 1. Ingresar Lectura \n 2. Mostrar Lecturas \n 3. Cambiar Puerto \n 0. Salir");
             switch (Console.ReadLine().Trim())
             {
                 case "1":
@@ -26,6 +26,9 @@ namespace Medidores
                     break;
                 case "2":
                     Mostrar();
+                    break;
+                case "3": 
+                    CambiarPuerto();
                     break;
                 case "0":
                     continuar = false;
@@ -45,10 +48,10 @@ namespace Medidores
 
         }
 
-        static void Ingresar() 
+        static void Ingresar()
         {
             Console.WriteLine("Ingrese medidor: ");
-            string nroMedidor= Console.ReadLine().Trim();
+            string nroMedidor = Console.ReadLine().Trim();
             Console.WriteLine("Ingrese fecha:YYYY-MM-DD hh:mm:ss ");
             string fecha = Console.ReadLine().Trim();
             Console.WriteLine("Ingrese el valor del consumo: ");
@@ -57,25 +60,39 @@ namespace Medidores
             {
                 NroMedidor = (int)Convert.ToInt64(nroMedidor),
                 Fecha = fecha,
-                ValorConsumo =(double)Convert.ToDouble(valorConsumo)
+                ValorConsumo = (double)Convert.ToDouble(valorConsumo)
             };
-            lock (lecturasDAL) 
+            lock (lecturasDAL)
             {
-            lecturasDAL.AgregarLectura(lectura);
+                lecturasDAL.AgregarLectura(lectura);
             }
         }
 
-        static void Mostrar() 
+        static void Mostrar()
         {
             List<Lectura> lecturas = null;
-            lock (lecturasDAL) 
+            lock (lecturasDAL)
             {
-            lecturas=lecturasDAL.ObtenerLectura();
+                lecturas = lecturasDAL.ObtenerLectura();
             }
-            foreach(Lectura lectura in lecturas)
+            foreach (Lectura lectura in lecturas)
             {
                 Console.WriteLine(lectura);
             }
+        }
+
+        static void CambiarPuerto()
+        {
+            Console.WriteLine("ingrese puerto: ");
+            int nuevoPuerto=(int)Convert.ToInt32( Console.ReadLine().Trim());
+            ConfigurationManager.AppSettings["puerto"]= (string)Convert.ToString( nuevoPuerto);
+            ServerSocket serverSocket = new ServerSocket(nuevoPuerto);
+            serverSocket.Iniciar();
+            
+            
+            
+
+
         }
     }
 }

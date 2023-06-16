@@ -1,0 +1,6 @@
+D:\github\repos\DempseyRolls\visualstudio2023\StarCap\StarCapModel\bin\Debug\StarCapModel.dll
+D:\github\repos\DempseyRolls\visualstudio2023\StarCap\StarCapModel\bin\Debug\StarCapModel.pdb
+D:\github\repos\DempseyRolls\visualstudio2023\StarCap\StarCapModel\obj\Debug\StarCapModel.csproj.AssemblyReference.cache
+D:\github\repos\DempseyRolls\visualstudio2023\StarCap\StarCapModel\obj\Debug\StarCapModel.csproj.CoreCompileInputs.cache
+D:\github\repos\DempseyRolls\visualstudio2023\StarCap\StarCapModel\obj\Debug\StarCapModel.dll
+D:\github\repos\DempseyRolls\visualstudio2023\StarCap\StarCapModel\obj\Debug\StarCapModel.pdb
