@@ -14,6 +14,38 @@
             <h1>Medidores Puntos</h1>
             <div class="mt-5">
 
+
+                <asp:Menu ID="Menu1" runat="server" DataSourceID="SiteMapDataSource1" BackColor="#FFFBD6" DynamicHorizontalOffset="2" Font-Names="Verdana" Font-Size="0.8em" ForeColor="#990000" StaticSubMenuIndent="10px">
+                    <DynamicHoverStyle BackColor="#990000" ForeColor="White"></DynamicHoverStyle>
+
+                    <DynamicMenuItemStyle HorizontalPadding="5px" VerticalPadding="2px"></DynamicMenuItemStyle>
+
+                    <DynamicMenuStyle BackColor="#FFFBD6"></DynamicMenuStyle>
+
+                    <DynamicSelectedStyle BackColor="#FFCC66"></DynamicSelectedStyle>
+
+                    <StaticHoverStyle BackColor="#990000" ForeColor="White"></StaticHoverStyle>
+
+                    <StaticMenuItemStyle HorizontalPadding="5px" VerticalPadding="2px"></StaticMenuItemStyle>
+
+                    <StaticSelectedStyle BackColor="#FFCC66"></StaticSelectedStyle>
+                </asp:Menu>
+
+
+                <asp:SiteMapDataSource ID="SiteMapDataSource1" runat="server" />
+
+
+
+                <asp:SiteMapPath ID="SiteMapPath1" runat="server" Font-Names="Verdana" Font-Size="0.8em" PathSeparator=" : ">
+                    <CurrentNodeStyle ForeColor="#333333"></CurrentNodeStyle>
+
+                    <NodeStyle Font-Bold="True" ForeColor="#990000"></NodeStyle>
+
+                    <PathSeparatorStyle Font-Bold="True" ForeColor="#990000"></PathSeparatorStyle>
+
+                    <RootNodeStyle Font-Bold="True" ForeColor="#FF8000"></RootNodeStyle>
+                </asp:SiteMapPath>
+
                 </div>
         </header>
         <div class="container-fuid mt-5">
