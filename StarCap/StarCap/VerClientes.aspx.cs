@@ -17,11 +17,30 @@ namespace StarCap
             // !IsPostBack es como si fuera un get
             if (!IsPostBack) 
             {
-                List<Cliente> clientes = clientesDAL.Obtener();
-                this.grillaCliente.DataSource = clientes;
-                this.grillaCliente.DataBind();
+                cargagrilla();
             }
             
+
+        }
+        //metodo para obtener los datos de la tabla y pasarselos a la grilla
+        protected void cargagrilla() 
+        {
+            List<Cliente> clientes = clientesDAL.Obtener();
+            this.grillaCliente.DataSource = clientes;
+            this.grillaCliente.DataBind();
+        }
+        protected void grillaCliente_RowCommand(object sender, GridViewCommandEventArgs e)
+        {
+            if(e.CommandName == "elimina") 
+            {
+                //significa que el usuario apreto boton
+                //por lo tanto eliminar el cliente
+                string rut = Convert.ToString(e.CommandArgument);
+                clientesDAL.Eliminar(rut);
+                cargagrilla();
+
+
+            }
 
         }
     }

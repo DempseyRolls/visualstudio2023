@@ -10,5 +10,8 @@ namespace StarCapModel.DAL
     {
         List<Cliente> Obtener();
         void Agregar(Cliente cliente);
+
+        //esta eliminara en la bd, por lo cual recibe el rut
+        void Eliminar(string rut);
     }
 }
