@@ -35,7 +35,7 @@ namespace Evaluacion3
             medidorDAL.AgregarMedidores(medidor);
 
             //mostrar mensaje de exito
-            this.mensajesLbl.Text = "cliente guardado correctamente";
+            this.mensajesLbl.Text = "medidor guardado correctamente";
 
         }
     }

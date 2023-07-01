@@ -8,9 +8,7 @@
                     <h3>Ver Medidores</h3>
                 </div>
                 <div class="card-body">
-                    <asp:GridView CssClass="table table-hover table-borderer" runat="server"
-                        OnRowCommand="grillaMedidor_RowCommand"
-                        AutoGenerateColumns="false" ID="grillaMedidor">
+                    <asp:GridView CssClass="table table-hover table-borderer" runat="server" AutoGenerateColumns="false" ID="grillaMedidor">
 
                         <Columns>
                             <asp:BoundField DataField="NumeroSerie" HeaderText="Numero de serie" />

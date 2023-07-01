@@ -10,12 +10,13 @@ namespace MedidoresModel
     {
         private Medidor medidorLectura;
         private DateTime fechaLectura;
-        private DateTime horaLectura;
+        private String horaLectura;
         private double valorConsumo;
 
         public Medidor MedidorLectura { get => medidorLectura; set => medidorLectura = value; }
         public DateTime FechaLectura { get => fechaLectura; set => fechaLectura = value; }
-        public DateTime HoraLectura { get => horaLectura; set => horaLectura = value; }
+        public string HoraLectura { get => horaLectura; set => horaLectura = value; }
         public double ValorConsumo { get => valorConsumo; set => valorConsumo = value; }
+        
     }
 }
