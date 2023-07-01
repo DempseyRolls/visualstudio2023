@@ -16,7 +16,7 @@
                     </div>
                     <div class="form-group">
                         <label for="tipoRbl">Tipo Medidor</label>
-                        <asp:RadioButtonList ID="RadioButtonList1" runat="server">
+                        <asp:RadioButtonList ID="tipoRbl" runat="server">
                             <asp:ListItem Text="Rural" Value="1"></asp:ListItem>
                             <asp:ListItem Text="Urbano" Value="2"></asp:ListItem>
 
