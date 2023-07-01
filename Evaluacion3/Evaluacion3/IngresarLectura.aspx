@@ -30,10 +30,11 @@
 
                     </div>
                     <div class="form-group">
-
+                        <label for="valorConsumoTxt">Valor de consumo</label> 
+                        <asp:TextBox ID="valorConsumoTxt" CssClass="form-control" runat="server"></asp:TextBox>
                     </div>
                     <div class="form-group">
-                        
+                        <asp:Button runat="server" ID="agregarBtn" OnClick="agregarBtn_Click" Text="Agregar" CssClass="btn btn-primary btn-lg" />
                         
                     </div>
 
