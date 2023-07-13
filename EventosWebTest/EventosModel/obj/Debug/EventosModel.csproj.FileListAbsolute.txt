@@ -1,0 +1,12 @@
+D:\github\repos\DempseyRolls\visualstudio2023\EventosWebTest\EventosModel\bin\Debug\EventosModel.dll.config
+D:\github\repos\DempseyRolls\visualstudio2023\EventosWebTest\EventosModel\bin\Debug\EventosModel.dll
+D:\github\repos\DempseyRolls\visualstudio2023\EventosWebTest\EventosModel\bin\Debug\EventosModel.pdb
+D:\github\repos\DempseyRolls\visualstudio2023\EventosWebTest\EventosModel\bin\Debug\EntityFramework.dll
+D:\github\repos\DempseyRolls\visualstudio2023\EventosWebTest\EventosModel\bin\Debug\EntityFramework.SqlServer.dll
+D:\github\repos\DempseyRolls\visualstudio2023\EventosWebTest\EventosModel\bin\Debug\EntityFramework.xml
+D:\github\repos\DempseyRolls\visualstudio2023\EventosWebTest\EventosModel\bin\Debug\EntityFramework.SqlServer.xml
+D:\github\repos\DempseyRolls\visualstudio2023\EventosWebTest\EventosModel\obj\Debug\EventosModel.csproj.AssemblyReference.cache
+D:\github\repos\DempseyRolls\visualstudio2023\EventosWebTest\EventosModel\obj\Debug\EventosModel.csproj.CoreCompileInputs.cache
+D:\github\repos\DempseyRolls\visualstudio2023\EventosWebTest\EventosModel\obj\Debug\EventosModel.csproj.CopyComplete
+D:\github\repos\DempseyRolls\visualstudio2023\EventosWebTest\EventosModel\obj\Debug\EventosModel.dll
+D:\github\repos\DempseyRolls\visualstudio2023\EventosWebTest\EventosModel\obj\Debug\EventosModel.pdb

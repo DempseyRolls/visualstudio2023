@@ -74,16 +74,32 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="AgregarAsistente.aspx" />
     <Content Include="Default.aspx" />
+    <Content Include="MostrarAsistente.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AgregarAsistente.aspx.cs">
+      <DependentUpon>AgregarAsistente.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AgregarAsistente.aspx.designer.cs">
+      <DependentUpon>AgregarAsistente.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MostrarAsistente.aspx.cs">
+      <DependentUpon>MostrarAsistente.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MostrarAsistente.aspx.designer.cs">
+      <DependentUpon>MostrarAsistente.aspx</DependentUpon>
     </Compile>
     <Compile Include="Principal.Master.cs">
       <DependentUpon>Principal.Master</DependentUpon>
@@ -103,6 +119,7 @@
     <None Include="Web.Release.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
+    <Content Include="Web.sitemap" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\EventosModel\EventosModel.csproj">
