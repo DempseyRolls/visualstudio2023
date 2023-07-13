@@ -12,7 +12,7 @@
                 <div class="card-body">
                     <div class="form-group">
                         <label for="numeroMedidorTxt">Numero Medidor</label>
-                        <asp:TextBox ID="numeroMedidorTxt" runat="server"></asp:TextBox>
+                        <asp:TextBox ID="numeroMedidorTxt" runat="server"></asp:TextBox><asp:RangeValidator runat="server" ErrorMessage="RangeValidator" Type="String" MaximumValue="9999" ControlToValidate="numeroMedidorTxt"></asp:RangeValidator>
                     </div>
                     <div class="form-group">
                         <label for="tipoRbl">Tipo Medidor</label>
