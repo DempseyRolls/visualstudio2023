@@ -1,0 +1,12 @@
+D:\github\repos\DempseyRolls\visualstudio2023\Evaluacion4\MedidoresModel\bin\Debug\MedidoresModel.dll.config
+D:\github\repos\DempseyRolls\visualstudio2023\Evaluacion4\MedidoresModel\bin\Debug\MedidoresModel.dll
+D:\github\repos\DempseyRolls\visualstudio2023\Evaluacion4\MedidoresModel\bin\Debug\MedidoresModel.pdb
+D:\github\repos\DempseyRolls\visualstudio2023\Evaluacion4\MedidoresModel\bin\Debug\EntityFramework.dll
+D:\github\repos\DempseyRolls\visualstudio2023\Evaluacion4\MedidoresModel\bin\Debug\EntityFramework.SqlServer.dll
+D:\github\repos\DempseyRolls\visualstudio2023\Evaluacion4\MedidoresModel\bin\Debug\EntityFramework.xml
+D:\github\repos\DempseyRolls\visualstudio2023\Evaluacion4\MedidoresModel\bin\Debug\EntityFramework.SqlServer.xml
+D:\github\repos\DempseyRolls\visualstudio2023\Evaluacion4\MedidoresModel\obj\Debug\MedidoresModel.csproj.AssemblyReference.cache
+D:\github\repos\DempseyRolls\visualstudio2023\Evaluacion4\MedidoresModel\obj\Debug\MedidoresModel.csproj.CoreCompileInputs.cache
+D:\github\repos\DempseyRolls\visualstudio2023\Evaluacion4\MedidoresModel\obj\Debug\MedidoresModel.csproj.CopyComplete
+D:\github\repos\DempseyRolls\visualstudio2023\Evaluacion4\MedidoresModel\obj\Debug\MedidoresModel.dll
+D:\github\repos\DempseyRolls\visualstudio2023\Evaluacion4\MedidoresModel\obj\Debug\MedidoresModel.pdb
