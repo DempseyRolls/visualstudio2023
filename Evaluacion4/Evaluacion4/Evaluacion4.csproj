@@ -74,9 +74,33 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="AgregarMedidor.aspx" />
+    <Content Include="Default.aspx" />
+    <Content Include="MostrarMedidor.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AgregarMedidor.aspx.cs">
+      <DependentUpon>AgregarMedidor.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AgregarMedidor.aspx.designer.cs">
+      <DependentUpon>AgregarMedidor.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MostrarMedidor.aspx.cs">
+      <DependentUpon>MostrarMedidor.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MostrarMedidor.aspx.designer.cs">
+      <DependentUpon>MostrarMedidor.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Principal.Master.cs">
       <DependentUpon>Principal.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
