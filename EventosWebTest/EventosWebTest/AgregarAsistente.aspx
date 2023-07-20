@@ -29,7 +29,7 @@
                     </div>
                     <div class="form-group">
                         <label for="estadolbl">Estado</label>
-                        <asp:RadioButtonList ID="estadoRbl" runat="server">
+                        <asp:RadioButtonList ID="estadoRbl" runat="server" >
                             <asp:ListItem Text="Pagada" Selected="True" Value="Pagada"></asp:ListItem>
                             <asp:ListItem Text="Con Deuda" Value="Con Deuda"></asp:ListItem>
                         </asp:RadioButtonList>
@@ -38,7 +38,7 @@
                         <label for="regionDDL">Region</label>
                         <asp:DropDownList ID="regionDDL" runat="server"></asp:DropDownList>
                     </div>
-                    <asp:Button runat="server" CssClass="btn btn-primary" ID="ingresaBtn" Text="Ingresar" />
+                    <asp:Button runat="server" CssClass="btn btn-primary" ID="ingresaBtn" Text="Ingresar" OnClick="ingresaBtn_Click" />
 
                 </div>
             </div>

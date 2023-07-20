@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33815.320
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Evaluacion4", "Evaluacion4\Evaluacion4.csproj", "{3E4DD743-5E16-40A7-B6E4-8114476C1AE7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MedidoresModel", "MedidoresModel\MedidoresModel.csproj", "{45392E49-B955-4AD5-BB2D-D126513B4D31}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3E4DD743-5E16-40A7-B6E4-8114476C1AE7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E4DD743-5E16-40A7-B6E4-8114476C1AE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E4DD743-5E16-40A7-B6E4-8114476C1AE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E4DD743-5E16-40A7-B6E4-8114476C1AE7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{45392E49-B955-4AD5-BB2D-D126513B4D31}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45392E49-B955-4AD5-BB2D-D126513B4D31}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45392E49-B955-4AD5-BB2D-D126513B4D31}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45392E49-B955-4AD5-BB2D-D126513B4D31}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D5CD0E88-12A0-4376-9DEA-8E7C30B93161}
+	EndGlobalSection
+EndGlobal

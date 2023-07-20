@@ -1,4 +1,5 @@
-﻿using EventosModel.DAL;
+﻿using EventosModel;
+using EventosModel.DAL;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -24,5 +25,22 @@ namespace EventosWebTest
                 this.regionDDL.DataBind();
             }
         }
+
+        protected void ingresaBtn_Click(object sender, EventArgs e)
+        {
+            Asistente asistente = new Asistente();
+            asistente.Rut = this.rutTXT.Text.Trim();
+            asistente.Nombre = this.nombreTXT.Text.Trim();
+            asistente.Apellido = this.apellidoTXT.Text.Trim();
+            asistente.Edad = Convert.ToInt32(this.edadTXT.Text.Trim());
+            asistente.Estado = this.estadoRbl.Text.Trim();
+            asistente.Empresa = this.empresaTXT.Text.Trim();
+            asistente.IdRegion = Convert.ToInt32(this.regionDDL.SelectedItem.Value);
+
+            this.asistentesDAL.AgregarAsistente(asistente);
+            Response.Redirect("MostrarAsistente.aspx");
+        }
+
+        
     }
 }
