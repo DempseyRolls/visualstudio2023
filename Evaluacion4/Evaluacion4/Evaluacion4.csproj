@@ -74,18 +74,36 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="AgregarLectura.aspx" />
     <Content Include="AgregarMedidor.aspx" />
+    <Content Include="AgregarUsuario.aspx" />
     <Content Include="Default.aspx" />
+    <Content Include="MostrarLectura.aspx" />
     <Content Include="MostrarMedidor.aspx" />
+    <Content Include="MostrarUsuario.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AgregarLectura.aspx.cs">
+      <DependentUpon>AgregarLectura.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AgregarLectura.aspx.designer.cs">
+      <DependentUpon>AgregarLectura.aspx</DependentUpon>
+    </Compile>
     <Compile Include="AgregarMedidor.aspx.cs">
       <DependentUpon>AgregarMedidor.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="AgregarMedidor.aspx.designer.cs">
       <DependentUpon>AgregarMedidor.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AgregarUsuario.aspx.cs">
+      <DependentUpon>AgregarUsuario.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AgregarUsuario.aspx.designer.cs">
+      <DependentUpon>AgregarUsuario.aspx</DependentUpon>
     </Compile>
     <Compile Include="Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>
@@ -94,12 +112,26 @@
     <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
+    <Compile Include="MostrarLectura.aspx.cs">
+      <DependentUpon>MostrarLectura.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MostrarLectura.aspx.designer.cs">
+      <DependentUpon>MostrarLectura.aspx</DependentUpon>
+    </Compile>
     <Compile Include="MostrarMedidor.aspx.cs">
       <DependentUpon>MostrarMedidor.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="MostrarMedidor.aspx.designer.cs">
       <DependentUpon>MostrarMedidor.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MostrarUsuario.aspx.cs">
+      <DependentUpon>MostrarUsuario.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MostrarUsuario.aspx.designer.cs">
+      <DependentUpon>MostrarUsuario.aspx</DependentUpon>
     </Compile>
     <Compile Include="Principal.Master.cs">
       <DependentUpon>Principal.Master</DependentUpon>
